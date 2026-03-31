@@ -1,15 +1,7 @@
-# agent-development-kit
+# Agent Development Kit
 
-To install dependencies:
+Agent Development Kit is to agents what the CDK is to cloud infrastructure: a framework for defining agent systems in code and provisioning them on AWS. It gives developers core primitives like `Agents` and `Workflows` to build automation into the software lifecycle.
 
-```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.3.10. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+- Core primitives: `Agents` and `Workflows`
+- Use cases: code review, issue triage, security scans
+- Define, provision, and manage agent systems on AWS
