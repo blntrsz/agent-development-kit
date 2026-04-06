@@ -1,4 +1,5 @@
 {
+  "$schema": "https://json.schemastore.org/package.json",
   "name": "agent-development-kit",
   "module": "index.ts",
   "type": "module",
@@ -8,5 +9,14 @@
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "catalog": {
+    "@effect/platform-bun": "4.0.0-beta.43",
+    "effect": "4.0.0-beta.43",
+    "typescript": "^5",
+    "@types/bun": "latest"
   }
 }

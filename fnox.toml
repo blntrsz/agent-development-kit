@@ -1,0 +1,10 @@
+default_provider = "ps"
+
+[providers.ps]
+type = "aws-ps"
+region = "eu-central-1"
+profile = "sandbox"
+prefix = "/adk/agent-development-kit/default/"
+
+[secrets]
+OPENCODE_API_KEY= { provider = "ps", value = "OPENCODE_API_KEY" }
