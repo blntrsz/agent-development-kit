@@ -1,7 +1,7 @@
 FROM oven/bun:latest
 
-WORKDIR /adk-pi
+WORKDIR /adk
 COPY ./bin/adk .
 RUN mkdir -p /etc/adk/
 
-CMD ["bun", "adk"]
+CMD ["sleep", "infinity"]
